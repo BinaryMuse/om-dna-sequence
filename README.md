@@ -8,5 +8,6 @@ Running
 
 With Leiningen:
 
-    $ lein cljsbuild once
-    $ open resources/public/index.html
+    $ lein cljsbuild once && lein serve
+
+Then visit http://localhost:8080
